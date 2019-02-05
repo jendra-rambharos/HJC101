@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Runners Home&trade; - Resources</title>
+</head>
+<body>
+<h1>Resources</h1>
+<table width="800" border="4" cellpadding="1" cellspacing="3" >
+	<caption>Running Resources</caption>
+		<tr>
+			<th>Date Added</th>
+			<th>Resource</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td rowspan="2">6/1/07</td>
+			<td>Boston Marathon Homepage (links to http://www.bostonmarathon.com)</td>
+			<td>Everything you want to know about the Boston Marathon AND MORE</td>
+		</tr>
+		<tr>
+			<td>Runners Health (links to http://www.runnershealth.com)</td>
+			<td>Great health tips for runners!</td>
+		</tr>
+		<tr>
+			<td>6/11/07</td>
+			<td>Jack's Running page (links to http://www.jacksrunning.com)</td>
+			<td>Jack gives advice about training for short races.</td>
+		</tr>
+		<tr>
+			<td>6/16/07</td>
+			<td>Race Runner (links to http://www.racerunner.org)</td>
+			<td>Great site for race runners.</td>
+		</tr>
+</table>
+<hr>
+<p>&copy; 2011 Runners Home. All rights reserved. For questions, send email to <a href="mailto:info@runnershome.com">info@runnershome.com</a>.</p>
+</body>
+</html>

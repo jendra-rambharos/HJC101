@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Colormania</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	username = window.prompt("What\'s your name?", "");
+	function changeBg(color){
+		document.bgColor = color;
+		window.alert("Yo " + username + " you just made this window mad " + color);
+	}
+	
+	function changeToCustomColor(){
+		myColor = window.prompt("What color you want cuz?", "");
+		changeBg("myColor");
+	}
+	
+	
+	/*
+	Write a function called changeBg() that changes the background
+	color and then pops up an alert telling the user, by name, what
+	the new background color is.
+	*/
+</script>
+</head>
+<body>
+<form>
+	<input type="button" value="red" onclick="changeBg('red');">
+	<input type="button" value="blue" onclick="changeBg('blue');">
+	<input type="button" value="green" onclick="changeBg('green');">
+	<input type="button" value="white" onclick="changeBg('white');">
+	<input type="button" value="Custom" onclick="changeToCustomColor();">
+</form>
+</body>
+</html>

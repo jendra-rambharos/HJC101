@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScript Operators</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	var rockStars = [];
+	var records = [];
+	rockStars[0] = prompt("Who is your favorite rock star?", "");
+	records[rockStars[0]] = prompt("How many of their albums do you own?");
+	rockStars[1] = prompt("And your next favorite rock star?", "");
+	records[rockStars[1]] = prompt("How many of their albums do you own?");
+	
+	difference = records[rockStars[0]] - records[rockStars[1]];
+
+	alert("You have " + difference + " more records for your favorite artist");	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

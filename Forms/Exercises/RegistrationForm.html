@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form method="post" action="http://www.remotecourse.com/Classes/htm101/process.cfm">
+	<label>Email: <input type="text" name="username" id="username" value="" size="20" maxlength="40"></label><br>
+	<label>Password: <input type="password" name="pw" id="pw" value="" size="20" maxlength="40"></label><br>
+	Gender?<label><input type="radio" name="gender" value="Male">Male</label>
+	<label><input type="radio" name="gender" value="Female">Female</label><br>
+	<label for="referral">Where did you hear about us?</label>
+	<select name="referral" id="referral">
+		<option value="0">Please Choose</option>
+		<option value="wom">Word of Mouth</option>
+		<option value="other">Other</option>
+		<optgroup label="Search Engine">
+			<option value="Google">Google</option>
+			<option value="Yahoo">Yahoo!</option>
+			<option value="MSN">MSN</option>
+		</optgroup>
+	</select>
+	<br>
+	Comments? <br>
+	<textarea name="comments" id="comments" cols="40" rows="6"></textarea><br>
+	<label>Click to accept our terms:<input type="checkbox" name="terms" id="terms"></label><br>
+	<input type="hidden" name="emailMe" id="emailMe" value="jendra817@aol.com" size="20" maxlength="40">	
+	<input type="submit" name="submitbutton" id="submitbutton" value="Register">
+	<input type="reset" name="resetbutton" id="resetbutton" value="Clear">
+</form>
+</body>
+</html>
